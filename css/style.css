@@ -1,0 +1,167 @@
+/* start gurp */
+.navbar {
+  padding: 15px 30px;;
+  height: 100px;
+}
+.navbar-brand {
+    font-size: 1.50rem;
+}
+.section {
+	background: #eee;  
+	padding: 15px;
+}
+._footer{
+
+  padding: 15px 30px;
+  height: 60px;
+  color: aliceblue;
+}
+._valid{
+	color: #212529;
+}
+._invalid{
+	color: #dc3545;
+}
+.Help{
+	text-align:right;
+}
+._HelpInvalid{
+	color: #f55c6b;
+}
+._HelpValid{
+    color: #454f65;
+}
+.text-line{
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.form-group{
+	margin-bottom: 1.5rem;
+}
+p.ss:before {
+	content: "*";
+}
+div.bott{
+	display: flex;
+    align-items: flex-end;
+    vertical-align: bottom;
+}
+._form-inline
+{
+  display:flex;
+}
+input[type='email']{
+	direction: ltr;
+}
+
+/* end gurp */
+
+
+
+/* start form_input */
+.form_input p.ss:before {
+	content: "*";
+}
+
+/* end form_input */
+
+/* start show_input */
+.show_input tbody tr {
+	 background: #fff; 
+}
+.show_input .table thead {
+	text-align:right;
+}
+.show_input .table tbody {
+	text-align:right;
+}
+
+.show_input .bg-p {
+	background-color: #64afff!important;
+	padding: 10px;
+}
+
+/* end show_input */
+
+/* start display_data */
+
+.display_data table {
+	table-layout:fixed;
+}
+.display_data .table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+.display_data tbody tr {
+	background: #fff;
+}
+.display_data .table thead {
+	text-align:right;
+}
+.display_data .table tbody {
+	text-align:right;
+}
+.display_data .bg-p {
+	background-color: #bee5eb!important;
+	padding: 10px;
+}
+
+/* end display_data */
+
+/* start form_password */
+.form_password {
+	 height: 500px; 
+}
+.form_password form h1 {
+	margin-bottom: 20px;
+}
+.form_password p.ss:before {
+	content: "*";
+}
+
+
+/* end form_password */
+
+/* start form_signin */
+.form_signin {
+	 height: 500px; 
+}
+.form_signin form h1 {
+	margin-bottom: 20px;
+}
+.form_signin p.ss:before {
+	content: "*";
+}
+
+/* end form_signin */
+
+/* start home */
+.home {
+	 height: 500px; 
+}
+
+/* end home */
+
+/* start edit bootstrap */
+.input-group-btn:not(:first-child)>.btn:first-child {
+    margin-right: -1px;
+}
+.input-group .form-control:not(:first-child),
+.input-group-addon:not(:first-child),
+.input-group-btn:not(:first-child)>.btn,
+.input-group-btn:not(:first-child)>.btn-group>.btn,
+.input-group-btn:not(:first-child)>.dropdown-toggle,
+.input-group-btn:not(:last-child)>.btn-group:not(:first-child)>.btn,
+.input-group-btn:not(:last-child)>.btn:not(:first-child)
+{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+	border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+.btn {
+    border-radius: .25rem;
+}
